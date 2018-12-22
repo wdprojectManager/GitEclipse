@@ -13,7 +13,6 @@ public class MyController {
 	@RequestMapping("hello")
 	public String login() {
 		logger.info("进入Hello界面...");
-		System.out.println("修改了");
 		return "Hello";
 	}
 }
